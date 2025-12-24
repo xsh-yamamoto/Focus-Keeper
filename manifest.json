@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Keeper - 集中＆工数管理",
+  "version": "1.0",
+  "description": "作業時間と休憩時間を管理し、工数履歴をCSV出力します。",
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Focus Keeper"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
